@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokyo Dori tienda online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="inicio.css">
+</head>
+<body>
+    <!--barra navegación-->
+    <nav>
+        <img src="./assets/icon_menu.svg" alt="icono menu" class="icon-menu">
+        <div class="navbar-left">
+            <img src="./assets/Recurso-4Logo-Tokyo-Dori.png" alt="logo" class="logo-nav">
+            <ul>
+                <li>
+                    <a href="">Todo</a>
+                </li>
+                <li>
+                    <a href="">Stickers</a>
+                </li>
+                <li>
+                    <a href="">Prints</a>
+                </li>
+                <li>
+                    <a href="">Posters</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="navbar-right">
+            <ul>
+                <li class="navbar-email">mail@email.com</li>
+                <li class="navbar-shopping-cart">
+                    <img src="./assets/icon_shopping_cart.svg" alt="shopping cart">
+                    <div>3</div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="desktop-menu inactive">
+            <ul>
+                <li>
+                    <a href="./my-orders.html" class="list-title">Mis pedidos</a>
+                </li>
+                <li>
+                    <a href="./editar-cuenta.html">Mi cuenta</a>
+                </li>
+                <li>
+                    <a href="./login.html">Cerrar sesión</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mobile-menu inactive">
+            <ul>
+                <li>
+                    <a href="">CATEGORIAS</a>
+                </li>
+                <li>
+                    <a href="">Stickers</a>
+                </li>
+                <li>
+                    <a href="">Prints</a>
+                </li>
+                <li>
+                    <a href="">Cuadros</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="./my-orders.html">Mis pedidos</a>
+                </li>
+                <li>
+                    <a href="./editar-cuenta.html">Mi cuenta</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="" class="menu-email">mail@email.com</a>
+                </li>
+                <li>
+                    <a href="./login.html" class="sign-out">Cerrar sesión</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--carrito de compras-->
+    <aside id="shoppingCartContainer" class="inactive">
+        <div class="title-container">
+            <img src="./assets/flechita.svg" alt="flecha">
+            <p class="title-cart">Mi pedido</p>
+        </div>
+
+        <div class="my-order-content">
+            <div class="shopping-list">
+            <figure>
+                <img src="./assets/1print.jpg" alt="print">
+            </figure>
+            <p>Print Tokyo Dori</p>
+            <p>$500</p>
+            <img src="./assets/icon_close.png" alt="icono cerrar">
+            </div>
+            <div class="shopping-list">
+            <figure>
+                <img src="./assets/1print.jpg" alt="print">
+            </figure>
+            <p>Print Tokyo Dori</p>
+            <p>$500</p>
+            <img src="./assets/icon_close.png" alt="icono cerrar">
+            </div>
+            <div class="shopping-list">
+            <figure>
+                <img src="./assets/1print.jpg" alt="print">
+            </figure>
+            <p>Print Tokyo Dori</p>
+            <p>$500</p>
+            <img src="./assets/icon_close.png" alt="icono cerrar">
+            </div>
+
+            <div class="order">
+                <p>
+                    <span>Total</span>
+                </p>
+                <p>$1500.00</p>
+            </div>
+            <button class="primary-button">
+                Ir a pagar
+            </button>
+        </div>
+    </aside>
+    <!--detalle producto-->
+    <aside id="productDetail" class="inactive">
+        <div class="product-detail-close">
+            <img src="./assets/icon_close.png" alt="icono cerrar">
+        </div>
+        <img src="./assets/1print.jpg" alt="print">
+        <div class="product-info-cart">
+            <p>$500</p>
+            <p>Print</p>
+            <p>Tarde, llegaste tarde a mi vida.
+                Pero te aseguro que siempre te amaré.
+                Tarde, nunca creí que lo diría.
+                Pero quisiera volver el tiempo atrás.
+                Para decirte que podría esperarte por siempre...</p>
+                <button class="primary-button add-to-cart-button">
+                    <img src="./assets/bt_add_to_cart.svg" alt="carrito">
+                    Agregar al carrito
+                </button>
+        </div>
+    </aside>
+    <!--pagina principal-->
+    <main class="main-container">
+        <div class="cards-container">
+<!-- estructura de card de producto
+            <div class="product-card">
+                <img src="./assets/1print.jpg" alt="print">
+                <div class="product-info">
+                    <div>
+                        <p>$500</p>
+                        <p>Print</p>
+                    </div>
+                        
+                    <figure>
+                        <img src="./assets/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+-->
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
